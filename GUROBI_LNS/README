@@ -1,0 +1,17 @@
+This repository contains the C++ source codes of the adaptive large neighbourhood search algorithm to solve the car sequencing problems.
+
+------------------
+Compile:
+------------------
+packages required: 1) cmake-2.8.4 or above; 2) gcc-7.3.0 or above; and gurobi
+
+compile: 1) create a build directory: 'mkdir build'
+         2) move to the build directory: 'cd build'
+         4) run cmake: 'cmake ..'. The path to Gurobi solver should be directly found; otherwise you need to specify the path. 
+         5) run makefile: 'make'
+
+------
+Usage:
+------
+Usage: ./CSP datafile_ID (specified in the main.cpp file line 32.)
+ 
